@@ -1,18 +1,16 @@
 import type { ReactNode } from 'react';
-import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
 
 interface LayoutProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navigation />
-      <main className="flex-grow">
-        {children}
-      </main>
+    <div className="flex min-h-screen flex-col overflow-x-hidden bg-brand-dark text-white">
+      <Header />
+      <main className="flex-1">{children}</main>
       <Footer />
     </div>
   );

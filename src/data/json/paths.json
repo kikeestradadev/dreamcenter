@@ -1,0 +1,73 @@
+{
+  "paths": [
+    {
+      "id": "path-1",
+      "slug": "desarrollo-web-introductorio",
+      "title": "Desarrollo Web Introductorio",
+      "description": "HTML5, CSS, JavaScript e inteligencia artificial aplicada a la web. Tu punto de partida en desarrollo web.",
+      "level": "Introductorio",
+      "image": "images/cursos/dev_wen_intro.png",
+      "bannerImage": "images/cursos/dev_wen_intro.png",
+      "featured": true,
+      "courseSlugs": [
+        "html5-introductorio",
+        "css-introductorio",
+        "javascript-introductorio",
+        "ai-aplicada-web",
+        "proyecto-final-introductorio"
+      ]
+    },
+    {
+      "id": "path-2",
+      "slug": "desarrollo-web-intermedio",
+      "title": "Desarrollo Web Intermedio",
+      "description": "HTML, CSS, SEO y JavaScript a nivel intermedio. Consolida bases y prepárate para proyectos reales.",
+      "level": "Intermedio",
+      "image": "images/cursos/dev_web_inter.png",
+      "bannerImage": "images/cursos/dev_web_inter.png",
+      "featured": true,
+      "courseSlugs": [
+        "html-intermedio",
+        "css-intermedio",
+        "seo-intermedio",
+        "javascript-intermedio",
+        "proyecto-final-intermedio"
+      ]
+    },
+    {
+      "id": "path-3",
+      "slug": "desarrollo-web-avanzado",
+      "title": "Desarrollo Web Avanzado",
+      "description": "Node.js, HTML5 avanzado, Sass, Tailwind, JavaScript avanzado y Git. Herramientas para el desarrollo web profesional.",
+      "level": "Avanzado",
+      "image": "images/cursos/dev_web_avanzado.png",
+      "bannerImage": "images/cursos/dev_web_avanzado.png",
+      "featured": true,
+      "courseSlugs": [
+        "nodejs-automatizacion",
+        "html5-avanzado",
+        "sass-tailwind",
+        "javascript-avanzado",
+        "git-avanzado",
+        "proyecto-final-avanzado"
+      ]
+    },
+    {
+      "id": "path-4",
+      "slug": "desarrollo-web-experto",
+      "title": "Desarrollo Web Experto",
+      "description": "Arquitectura, optimización, testing y despliegue a escala en producción.",
+      "level": "Experto",
+      "image": "images/esp_desarrollo_web_experto.jpg",
+      "bannerImage": "images/cursos/dev_web_experto.png",
+      "featured": true,
+      "courseSlugs": [
+        "arquitectura-experto",
+        "performance-experto",
+        "testing-experto",
+        "devops-experto",
+        "proyecto-final-experto"
+      ]
+    }
+  ]
+}

@@ -84,9 +84,8 @@ Configuración de rutas usando React Router:
 ## 🎨 Estilos
 
 El proyecto utiliza **Tailwind CSS v4** para todos los estilos. La configuración se encuentra en:
-- `tailwind.config.js` - Configuración de Tailwind
-- `postcss.config.js` - Configuración de PostCSS
-- `src/index.css` - Importa Tailwind CSS con `@import "tailwindcss"`
+- `vite.config.ts` — plugin `@tailwindcss/vite`
+- `src/index.css` — `@import "tailwindcss"` y tokens en `@theme`
 
 ## 📦 Instalación
 
