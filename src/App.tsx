@@ -4,7 +4,7 @@ import Page2 from './pages/Page2';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
       <Routes>
         <Route path="/" element={<Page1 />} />
         <Route path="/page1" element={<Page1 />} />

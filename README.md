@@ -2,6 +2,10 @@
 
 Boilerplate moderno para desarrollo frontend con React, TypeScript, Vite y Tailwind CSS v4.
 
+## 🌐 Sitio en vivo
+
+**[https://kikeestradadev.github.io/dreamcenter/](https://kikeestradadev.github.io/dreamcenter/)**
+
 ## 🚀 Tecnologías
 
 - **React 19** - Biblioteca de UI
@@ -102,9 +106,26 @@ npm run build
 # Preview del build
 npm run preview
 
+# Publicar en GitHub Pages
+npm run deploy
+
 # Linter
 npm run lint
 ```
+
+## 📤 GitHub Pages
+
+El sitio se publica en GitHub Pages con la rama `gh-pages`.
+
+**URL del sitio:** [https://kikeestradadev.github.io/dreamcenter/](https://kikeestradadev.github.io/dreamcenter/)
+
+Para publicar o actualizar la versión en producción:
+
+```bash
+npm run deploy
+```
+
+Este comando genera el build de producción y lo sube automáticamente a GitHub Pages.
 
 ## 🔄 Flujo de Trabajo
 
