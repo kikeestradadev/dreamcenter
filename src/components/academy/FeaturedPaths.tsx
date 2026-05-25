@@ -6,6 +6,9 @@ import type { StudyPath } from '../../data/types';
 import { getPathDisplayImage } from '../../data/paths';
 import { assetUrl } from '../../utils/assetUrl';
 import SliderNavButtons from './SliderNavButtons';
+import SliderDots from './SliderDots';
+import { academySliderModules, academySliderPagination } from './sliderOptions';
+import { useSliderPagination } from './useSliderPagination';
 
 import 'swiper/css';
 
@@ -25,6 +28,7 @@ const FeaturedPaths = ({
   linkPrefix = '/rutas',
 }: FeaturedPathsProps) => {
   const swiperRef = useRef<SwiperType | null>(null);
+  const { paginationRef, onSwiperReady } = useSliderPagination();
 
   return (
     <section className="course-row group/row relative mb-10 px-4 md:px-8 lg:px-12">
@@ -38,14 +42,19 @@ const FeaturedPaths = ({
         <div className="course-row__slider course-row__slider--home">
           <Swiper
             key={filterKey}
-            onSwiper={(swiper) => { swiperRef.current = swiper; }}
+            modules={academySliderModules}
+            pagination={academySliderPagination}
+            onSwiper={(swiper) => {
+              swiperRef.current = swiper;
+              onSwiperReady(swiper);
+            }}
             slidesPerView="auto"
             spaceBetween={16}
             breakpoints={{
               640: { spaceBetween: 16 },
               960: { spaceBetween: 16 },
             }}
-            className="py-4"
+            className="course-row__swiper"
           >
             {paths.map((path) => {
               const displayImage = getPathDisplayImage(path);
@@ -82,6 +91,7 @@ const FeaturedPaths = ({
               );
             })}
           </Swiper>
+          <SliderDots paginationRef={paginationRef} />
         </div>
       </div>
     </section>

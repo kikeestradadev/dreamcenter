@@ -56,17 +56,16 @@
       "id": "path-4",
       "slug": "desarrollo-web-experto",
       "title": "Desarrollo Web Experto",
-      "description": "Arquitectura, optimización, testing y despliegue a escala en producción.",
+      "description": "Domina arquitecturas modernas, frontend avanzado y plataformas profesionales. Aprende React JS, Bases de Datos, Supabase y Strapi para construir soluciones modernas a nivel experto.",
       "level": "Experto",
-      "image": "images/esp_desarrollo_web_experto.jpg",
-      "bannerImage": "images/cursos/dev_web_experto.png",
+      "image": "images/cursos/web_dev_experto.png",
+      "bannerImage": "images/cursos/web_dev_experto.png",
       "featured": true,
       "courseSlugs": [
-        "arquitectura-experto",
-        "performance-experto",
-        "testing-experto",
-        "devops-experto",
-        "proyecto-final-experto"
+        "react-experto",
+        "bases-datos-experto",
+        "supabase-experto",
+        "strapi-experto"
       ]
     }
   ]

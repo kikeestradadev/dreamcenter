@@ -5,6 +5,9 @@ import type { Swiper as SwiperType } from 'swiper';
 import type { School } from '../../data/fakeCourses';
 import { assetUrl } from '../../utils/assetUrl';
 import SliderNavButtons from './SliderNavButtons';
+import SliderDots from './SliderDots';
+import { academySliderModules, academySliderPagination } from './sliderOptions';
+import { useSliderPagination } from './useSliderPagination';
 
 import 'swiper/css';
 
@@ -22,6 +25,7 @@ const SchoolsRow = ({
   filterKey = '',
 }: SchoolsRowProps) => {
   const swiperRef = useRef<SwiperType | null>(null);
+  const { paginationRef, onSwiperReady } = useSliderPagination();
 
   return (
     <section className="course-row group/row relative mb-10 px-4 md:px-8 lg:px-12">
@@ -35,7 +39,12 @@ const SchoolsRow = ({
         <div className="course-row__slider">
           <Swiper
             key={filterKey}
-            onSwiper={(swiper) => { swiperRef.current = swiper; }}
+            modules={academySliderModules}
+            pagination={academySliderPagination}
+            onSwiper={(swiper) => {
+              swiperRef.current = swiper;
+              onSwiperReady(swiper);
+            }}
             slidesPerView={1.4}
             spaceBetween={16}
             breakpoints={{
@@ -44,7 +53,7 @@ const SchoolsRow = ({
               960: { slidesPerView: 3.5 },
               1280: { slidesPerView: 4.2 },
             }}
-            className="py-4"
+            className="course-row__swiper"
           >
             {schools.map((school) => (
               <SwiperSlide key={school.id}>
@@ -73,6 +82,7 @@ const SchoolsRow = ({
               </SwiperSlide>
             ))}
           </Swiper>
+          <SliderDots paginationRef={paginationRef} />
         </div>
       </div>
     </section>

@@ -4,6 +4,9 @@ import type { Swiper as SwiperType } from 'swiper';
 import type { Course } from '../../data/fakeCourses';
 import CourseCard from './CourseCard';
 import SliderNavButtons from './SliderNavButtons';
+import SliderDots from './SliderDots';
+import { academySliderModules, academySliderPagination } from './sliderOptions';
+import { useSliderPagination } from './useSliderPagination';
 
 import 'swiper/css';
 
@@ -16,6 +19,7 @@ interface CourseRowProps {
 
 const CourseRow = ({ title, subtitle, courses, filterKey = '' }: CourseRowProps) => {
   const swiperRef = useRef<SwiperType | null>(null);
+  const { paginationRef, onSwiperReady } = useSliderPagination();
 
   return (
     <section className="course-row group/row relative mb-10 px-4 md:px-8 lg:px-12">
@@ -29,25 +33,29 @@ const CourseRow = ({ title, subtitle, courses, filterKey = '' }: CourseRowProps)
 
         <div className="course-row__slider">
           <Swiper
-          key={filterKey}
-          onSwiper={(swiper) => {
-            swiperRef.current = swiper;
-          }}
-          slidesPerView="auto"
-          spaceBetween={12}
-          breakpoints={{
-            640: { spaceBetween: 14 },
-            960: { spaceBetween: 16 },
-            1280: { spaceBetween: 18 },
-          }}
-          className="py-4"
-        >
-          {courses.map((course) => (
-            <SwiperSlide key={course.id} className="!h-auto !w-[300px] shrink-0 md:!w-[400px]">
-              <CourseCard course={course} />
-            </SwiperSlide>
-          ))}
+            key={filterKey}
+            modules={academySliderModules}
+            pagination={academySliderPagination}
+            onSwiper={(swiper) => {
+              swiperRef.current = swiper;
+              onSwiperReady(swiper);
+            }}
+            slidesPerView="auto"
+            spaceBetween={12}
+            breakpoints={{
+              640: { spaceBetween: 14 },
+              960: { spaceBetween: 16 },
+              1280: { spaceBetween: 18 },
+            }}
+            className="course-row__swiper"
+          >
+            {courses.map((course) => (
+              <SwiperSlide key={course.id} className="!h-auto !w-[300px] shrink-0 md:!w-[400px]">
+                <CourseCard course={course} />
+              </SwiperSlide>
+            ))}
           </Swiper>
+          <SliderDots paginationRef={paginationRef} />
         </div>
       </div>
     </section>

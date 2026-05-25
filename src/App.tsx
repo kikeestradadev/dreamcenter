@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/layout/ScrollToTop';
 import HomePage from './pages/HomePage';
 import CursosPage from './pages/CursosPage';
 import CursosGratisPage from './pages/CursosGratisPage';
@@ -23,6 +24,7 @@ import {
 function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cursos" element={<CursosPage />} />
