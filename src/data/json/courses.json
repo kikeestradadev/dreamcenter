@@ -94,7 +94,7 @@
       "id": "dw-js-intermedio",
       "slug": "javascript-intermedio",
       "title": "JavaScript Intermedio",
-      "subtitle": "ES6+, DOM avanzado, asincronía y lógica aplicada al frontend",
+      "subtitle": "DOM, eventos e interacción en el navegador",
       "image": "images/cursos/js_inter.png",
       "category": "Desarrollo Web",
       "level": "Intermedio",

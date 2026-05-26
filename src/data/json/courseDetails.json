@@ -395,13 +395,13 @@
     },
     {
       "slug": "css-intermedio",
-      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para adentrarse en temas más profundos y actualizados de CSS, demostrando lo aprendido con un proyecto integrador.",
-      "requirements": "Es esencial tener los conocimientos adquiridos en CSS Introductorio.",
-      "audience": "Dirigido a quien desee actualizar sus conocimientos en tecnologías actuales de CSS, como Flexbox y CSS Grid.",
+      "objective": "Dominar layouts modernos con Flexbox y CSS Grid, transiciones, transformaciones y la metodología BEM para maquetar interfaces reales.",
+      "requirements": "Se recomienda haber visto CSS Introductorio. No es necesario haber completado otros cursos de la ruta. Conocimientos básicos de computación e internet.",
+      "audience": "Estudiantes que quieren pasar de CSS básico a maquetación moderna y organización de estilos con BEM.",
       "learnings": [
         "Layouts modernos con Flexbox y CSS Grid.",
         "Arquitectura CSS con la metodología BEM.",
-        "Transiciones, animaciones y transformaciones.",
+        "Transiciones y transformaciones.",
         "Maquetación responsive y resolución de problemas reales con CSS."
       ],
       "modules": [
@@ -432,7 +432,7 @@
           "topics": [
             "Centrado absoluto",
             "Menú responsive",
-            "Banner animado",
+            "Banner con Flexbox",
             "Solucionar elementos aplastados",
             "Tarjeta de usuario",
             "Layout responsive"
@@ -483,36 +483,13 @@
           ]
         },
         {
-          "title": "Animaciones",
-          "topics": [
-            "Animaciones vs transiciones",
-            "Animation name y duration",
-            "Animation timing function",
-            "Animation iteration-count y direction",
-            "Animation play-state",
-            "Animation delay y fill-mode",
-            "Shorthand animation",
-            "Reverse animation",
-            "Animation event",
-            "Controlar animaciones CSS con JavaScript",
-            "Animaciones con scroll",
-            "Cubic bezier",
-            "Ejemplos de cubic bezier",
-            "Sprites"
-          ]
-        },
-        {
           "title": "Transformaciones",
           "topics": [
             "Introducción al sistema de coordenadas",
             "Funciones de transformación 2D",
             "Transform origin",
             "Orden de las transformaciones",
-            "Ejercicio reloj",
-            "Transformaciones 3D",
-            "3D axis y perspectiva",
-            "Crear un cubo 3D",
-            "Dado 3D"
+            "scale, rotate y translate en la práctica"
           ]
         },
         {
@@ -531,7 +508,7 @@
     {
       "slug": "bases-datos-intermedio",
       "objective": "Profundizar en el diseño y consulta de bases de datos relacionales, aplicando modelado, JOINs, agregaciones e integridad de datos en escenarios web intermedios.",
-      "requirements": "Es recomendable haber completado Bases de Datos Introductorio y los cursos del módulo intermedio (CSS y JavaScript).",
+      "requirements": "Se recomienda haber visto Bases de Datos Introductorio. No es necesario haber completado otros cursos de la ruta. Conocimientos básicos de computación e internet.",
       "audience": "Estudiantes que ya conocen SQL básico y quieren diseñar estructuras más sólidas y consultas más complejas para aplicaciones web.",
       "learnings": [
         "Modelar bases de datos con normalización básica.",
@@ -594,14 +571,15 @@
     },
     {
       "slug": "javascript-intermedio",
-      "objective": "Capacitar al estudiante en todo lo referente a cómo funciona el árbol de nodos del navegador.",
-      "requirements": "Es esencial tener los conocimientos adquiridos en JavaScript Introductorio.",
-      "audience": "Dirigido a quien desee actualizar sus conocimientos en tecnologías actuales de JavaScript en el navegador.",
+      "objective": "Trabajar con el DOM y el navegador: seleccionar y modificar elementos, manejar eventos y usar las APIs básicas del browser con JavaScript.",
+      "requirements": "Se recomienda haber visto JavaScript Introductorio. No es necesario haber completado otros cursos de la ruta. Conocimientos básicos de computación e internet.",
+      "audience": "Estudiantes que quieren conectar JavaScript con la página web: DOM, eventos e interacción en el navegador.",
       "learnings": [
         "Entender el árbol DOM.",
         "Manipular los elementos del DOM.",
         "Mover, clonar, quitar y reemplazar elementos del DOM.",
-        "Manejar eventos de mouse, teclado, formularios, pantalla, timers y fechas con JavaScript."
+        "Manejar eventos de mouse, teclado, formularios y del navegador.",
+        "Usar timers, fechas y fetch básico para consumir APIs."
       ],
       "modules": [
         {
@@ -637,7 +615,6 @@
             "Ejercicio con insertBefore()",
             "insertAdjacent",
             "Reemplazar hijos",
-            "Métodos de jQuery",
             "Clonar y eliminar",
             "Crear elementos y fragmentos",
             "Templates (HTML)",
@@ -653,7 +630,8 @@
             "Objeto history",
             "Objeto navigator",
             "Timers",
-            "Objeto Date"
+            "Objeto Date",
+            "Introducción a fetch para consumir APIs"
           ]
         }
       ]
