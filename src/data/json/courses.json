@@ -35,7 +35,17 @@
       "slug": "ai-aplicada-web",
       "title": "AI aplicada a la Web",
       "subtitle": "Introducción a herramientas de IA para crear y mejorar sitios web",
-      "image": "images/cursos/ai_intro.png",
+      "image": "images/cursos/ai_intro2.png",
+      "category": "Desarrollo Web",
+      "level": "Introductorio",
+      "duration": "Por definir"
+    },
+    {
+      "id": "dw-git-intro",
+      "slug": "git-introductorio",
+      "title": "Git Introductorio",
+      "subtitle": "Repositorios, commits, pull, push y publicación en GitHub Pages",
+      "image": "images/cursos/git_intro.png",
       "category": "Desarrollo Web",
       "level": "Introductorio",
       "duration": "Por definir"
@@ -44,7 +54,7 @@
       "id": "dw-proyecto-final",
       "slug": "proyecto-final-introductorio",
       "title": "Proyecto Final",
-      "subtitle": "Integra HTML, CSS, JavaScript e IA en un sitio web completo",
+      "subtitle": "Integra HTML, CSS, JavaScript, Git, IA en un sitio web completo",
       "image": "images/cursos/proyecto_intro.png",
       "category": "Desarrollo Web",
       "level": "Introductorio",

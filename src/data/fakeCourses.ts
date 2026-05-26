@@ -1,4 +1,4 @@
-export type { Course, StudyPath, School, PathRecord } from './types';
+export type { Course, StudyPath, School, PathRecord, CourseDetail, CourseModule } from './types';
 
 export {
   allCourses,
@@ -13,11 +13,18 @@ export {
 } from './courses';
 
 export {
+  allCourseDetails,
+  getCourseDetailBySlug,
+  resolveCourseDetail,
+} from './courseDetails';
+
+export {
   allPaths,
   featuredPaths,
   getPathBySlug,
   getPathCourses,
   getPathDisplayImage,
+  getPathForCourseSlug,
   getPathRecordBySlug,
 } from './paths';
 

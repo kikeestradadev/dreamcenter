@@ -4,7 +4,7 @@
       "id": "path-1",
       "slug": "desarrollo-web-introductorio",
       "title": "Desarrollo Web Introductorio",
-      "description": "HTML5, CSS, JavaScript e inteligencia artificial aplicada a la web. Tu punto de partida en desarrollo web.",
+      "description": "HTML5, CSS, JavaScript, Git, IA aplicada a la web y proyecto integrador. Tu punto de partida en desarrollo web.",
       "level": "Introductorio",
       "image": "images/cursos/dev_wen_intro.png",
       "bannerImage": "images/cursos/dev_wen_intro.png",
@@ -14,6 +14,7 @@
         "css-introductorio",
         "javascript-introductorio",
         "ai-aplicada-web",
+        "git-introductorio",
         "proyecto-final-introductorio"
       ]
     },

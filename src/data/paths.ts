@@ -42,6 +42,9 @@ export const getPathCourses = (pathSlug: string): Course[] => {
 export const getPathRecordBySlug = (slug: string): PathRecord | undefined =>
   pathRecords.find((path) => path.slug === slug);
 
+export const getPathForCourseSlug = (courseSlug: string): PathRecord | undefined =>
+  pathRecords.find((path) => path.courseSlugs.includes(courseSlug));
+
 /** Imagen principal de la ruta — prioriza banner del JSON local */
 export const getPathDisplayImage = (path: Pick<StudyPath, 'bannerImage' | 'image'>): string =>
   path.bannerImage ?? path.image;

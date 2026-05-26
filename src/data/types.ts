@@ -54,6 +54,25 @@ export interface CoursesFile {
   courses: Course[];
 }
 
+export interface CourseModule {
+  title: string;
+  topics: string[];
+}
+
+export interface CourseDetail {
+  slug: string;
+  note?: string;
+  objective: string;
+  requirements: string;
+  audience: string;
+  learnings: string[];
+  modules: CourseModule[];
+}
+
+export interface CourseDetailsFile {
+  courseDetails: CourseDetail[];
+}
+
 export interface PathsFile {
   paths: PathRecord[];
 }

@@ -1,34 +1,22 @@
 import { Link, useParams } from 'react-router-dom';
 import Layout from '../templates/Layout';
 import PageHeader from '../components/layout/PageHeader';
-import { getCourseBySlug } from '../data/fakeCourses';
+import CourseDetailContent from '../components/academy/CourseDetailContent';
+import { getCourseBySlug, resolveCourseDetail } from '../data/fakeCourses';
 import { assetUrl } from '../utils/assetUrl';
-
-const temarioDefault = [
-  'Introducción y objetivos del curso',
-  'Conceptos fundamentales',
-  'Ejercicios y práctica',
-  'Proyecto integrador',
-  'Recursos y siguientes pasos',
-];
-
-const aprendizajesDefault = [
-  'Comprender los conceptos base del tema',
-  'Aplicar lo aprendido en ejercicios prácticos',
-  'Desarrollar un proyecto demostrativo',
-  'Conocer recursos para seguir aprendiendo',
-];
+import { getCourseBreadcrumbs, getCourseNotFoundBreadcrumbs } from '../utils/courseBreadcrumbs';
 
 const CursoDetailPage = () => {
   const { slug } = useParams<{ slug: string }>();
   const course = slug ? getCourseBySlug(slug) : undefined;
+  const detail = course ? resolveCourseDetail(course) : undefined;
 
-  if (!course) {
+  if (!course || !detail) {
     return (
       <Layout>
-        <PageHeader title="Curso no encontrado" breadcrumbs={[{ label: 'Inicio', href: '/' }, { label: 'Cursos', href: '/cursos' }, { label: 'No encontrado' }]} />
+        <PageHeader title="Curso no encontrado" breadcrumbs={getCourseNotFoundBreadcrumbs()} />
         <div className="px-4 py-16 text-center">
-          <Link to="/cursos" className="text-brand-cyan hover:underline">← Volver al catálogo</Link>
+          <Link to="/" className="text-brand-cyan hover:underline">← Volver al inicio</Link>
         </div>
       </Layout>
     );
@@ -36,13 +24,7 @@ const CursoDetailPage = () => {
 
   return (
     <Layout>
-      <PageHeader
-        breadcrumbs={[
-          { label: 'Inicio', href: '/' },
-          { label: 'Cursos', href: '/cursos' },
-          { label: course.title },
-        ]}
-      />
+      <PageHeader breadcrumbs={getCourseBreadcrumbs(course)} />
 
       <section className="px-4 pb-16 md:px-8 lg:px-12">
         <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-5">
@@ -85,39 +67,7 @@ const CursoDetailPage = () => {
           </div>
         </div>
 
-        <div className="mx-auto mt-12 grid max-w-7xl gap-8 lg:grid-cols-2">
-          <div>
-            <h2 className="mb-4 text-xl font-semibold text-white">Qué aprenderás</h2>
-            <ul className="space-y-2 rounded-xl border border-white/5 bg-brand-surface p-6">
-              {aprendizajesDefault.map((item) => (
-                <li key={item} className="flex gap-2 text-sm text-white/70">
-                  <span className="text-brand-cyan">·</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-4 text-xl font-semibold text-white">Temario</h2>
-            <ol className="space-y-2 rounded-xl border border-white/5 bg-brand-surface p-6">
-              {temarioDefault.map((item, i) => (
-                <li key={item} className="flex gap-3 text-sm text-white/70">
-                  <span className="font-mono text-brand-cyan">{String(i + 1).padStart(2, '0')}</span>
-                  {item}
-                </li>
-              ))}
-            </ol>
-          </div>
-        </div>
-
-        <div className="mx-auto mt-8 max-w-7xl">
-          <h2 className="mb-4 text-xl font-semibold text-white">Descripción</h2>
-          <p className="rounded-xl border border-white/5 bg-brand-surface p-6 text-sm leading-relaxed text-white/60">
-            {course.subtitle}. Este curso forma parte del catálogo informativo de DreamCenter,
-            una academia enfocada en personas de bajos recursos. El contenido detallado se
-            conectará a la plataforma educativa cuando esté disponible.
-          </p>
-        </div>
+        <CourseDetailContent detail={detail} />
       </section>
     </Layout>
   );

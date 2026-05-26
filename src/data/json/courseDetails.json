@@ -1,0 +1,1256 @@
+{
+  "courseDetails": [
+    {
+      "slug": "html5-introductorio",
+      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para adentrarse en el mundo de la tecnología web a través de los contenidos de este curso.",
+      "requirements": "No requieres tener ningún conocimiento previo, ya que este curso es la base para los siguientes niveles más avanzados. Sin embargo, es importante contar con conocimientos sólidos en computación y manejo de internet.",
+      "audience": "Dirigido a quien desee adentrarse en el mundo de la tecnología web: pueden venir del área de diseño, de desarrollo o no saber absolutamente nada, ya que el curso es desde cero.",
+      "learnings": [
+        "Crear documentos HTML.",
+        "Crear páginas web bien estructuradas.",
+        "Conocer las últimas características de HTML5."
+      ],
+      "modules": [
+        {
+          "title": "Introducción",
+          "topics": [
+            "¿Qué es HTML?",
+            "¿Qué es HTML5?",
+            "Herramientas",
+            "Sintaxis de HTML"
+          ]
+        },
+        {
+          "title": "Estructura de documento",
+          "topics": [
+            "Contenido del HEAD",
+            "HTML, CSS y JavaScript",
+            "Títulos y párrafos",
+            "Etiquetas de sección"
+          ]
+        },
+        {
+          "title": "Etiquetas de agrupación de contenido y de texto",
+          "topics": [
+            "Elementos de bloque",
+            "Elementos de línea"
+          ]
+        },
+        {
+          "title": "Enlaces y listas",
+          "topics": [
+            "Enlaces",
+            "Rutas relativas y absolutas",
+            "Enlaces con hash y parámetros",
+            "Listas"
+          ]
+        },
+        {
+          "title": "Contenido embebido",
+          "topics": [
+            "Tipo de imágenes",
+            "Formato de imágenes",
+            "Insertar imágenes en HTML",
+            "Srcset",
+            "Picture",
+            "Figura",
+            "Audio y video",
+            "Insertar contenido externo"
+          ]
+        },
+        {
+          "title": "Tablas",
+          "topics": [
+            "Estructura básica de una tabla",
+            "Estructura completa de una tabla",
+            "Agrupación de filas y celdas",
+            "Colgroup"
+          ]
+        },
+        {
+          "title": "Formularios",
+          "topics": [
+            "Estructura básica de un formulario",
+            "Estructura completa de un formulario",
+            "Tipos de input",
+            "Opciones de selección",
+            "Atributos de formularios"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "css-introductorio",
+      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para adentrarse en el mundo de la tecnología web a través de los contenidos de este curso.",
+      "requirements": "No requieres tener ningún conocimiento previo, ya que este curso es la base para los siguientes niveles más avanzados. Sin embargo, es importante contar con conocimientos sólidos en computación y manejo de internet.",
+      "audience": "Dirigido a quien desee adentrarse en el mundo de la tecnología web: pueden venir del área de diseño, de desarrollo o no saber absolutamente nada, ya que el curso es desde cero.",
+      "learnings": [
+        "Fundamentos, sintaxis y buenas prácticas de CSS.",
+        "Selectores, pseudoclases y modelo de caja.",
+        "Manejo del texto y del color."
+      ],
+      "modules": [
+        {
+          "title": "Introducción",
+          "topics": [
+            "Introducción",
+            "Requisitos para el curso",
+            "Historia de CSS",
+            "Módulos CSS",
+            "Conectar HTML y CSS",
+            "Sintaxis de CSS",
+            "Variables CSS"
+          ]
+        },
+        {
+          "title": "Selectores",
+          "topics": [
+            "Estilos del navegador",
+            "Selectores",
+            "Selectores simples: etiqueta",
+            "Selectores simples: clases",
+            "Selectores simples: Id",
+            "Selectores compuestos: agrupados",
+            "Selectores compuestos: combinados",
+            "Selectores compuestos: descendientes",
+            "Selectores con operadores + > ~ *",
+            "Selectores de atributos",
+            "Selector de atributos con comodines"
+          ]
+        },
+        {
+          "title": "Los pilares de CSS",
+          "topics": [
+            "¿Cómo funciona CSS?",
+            "Especificidad",
+            "Cascada",
+            "Estilos computados",
+            "Herencia"
+          ]
+        },
+        {
+          "title": "Box model",
+          "topics": [
+            "Elementos de línea y de bloque",
+            "Propiedad display",
+            "Margin",
+            "Padding",
+            "Bordes",
+            "Propiedad box-sizing"
+          ]
+        },
+        {
+          "title": "Bordes y sombras",
+          "topics": [
+            "border",
+            "Border radius",
+            "Outline",
+            "Box shadow"
+          ]
+        },
+        {
+          "title": "Pseudoclases",
+          "topics": [
+            "¿Qué son las pseudoclases?",
+            ":hover :active :visited",
+            ":target :not :empty",
+            ":first-child :last-child :first-of-type :last-of-type",
+            ":nth-child :nth-of-type"
+          ]
+        },
+        {
+          "title": "Fondos",
+          "topics": [
+            "background-color",
+            "background-size",
+            "background-position",
+            "background-clip y background-origin",
+            "background-attachment",
+            "Background múltiples",
+            "Shorthand Background"
+          ]
+        },
+        {
+          "title": "Color",
+          "topics": [
+            "Currentcolor",
+            "Color keywords",
+            "Modo RGB",
+            "Notación hexadecimal",
+            "Modo HSL",
+            "Degradados lineales",
+            "Degradados radiales",
+            "Degradados repetidos",
+            "Ejercicio Ying-Yang"
+          ]
+        },
+        {
+          "title": "Texto",
+          "topics": [
+            "Conceptos básicos de tipografía",
+            "Unidades de medida em y rem",
+            "Estilos básicos de texto",
+            "Font Family",
+            "Sombras de texto",
+            "Fuentes para la web",
+            "@font-face",
+            "font-display",
+            "Creando un sistema de fuentes",
+            "Espacios en blanco",
+            "Flujo y desbordamiento",
+            "Resolver desbordamiento",
+            "Ejercicio controlar texto en vertical"
+          ]
+        },
+        {
+          "title": "Position",
+          "topics": [
+            "Flujo y espacio reservado",
+            "Propiedades offset (top, left, right, bottom)",
+            "Position relative",
+            "Position absolute",
+            "Ejercicio tooltip",
+            "Ejercicio menú desplegable",
+            "Repasando temas de posicionamiento",
+            "Position fixed",
+            "Position sticky",
+            "Stacking context",
+            "z-index",
+            "pointer-events",
+            "Ejercicio modal"
+          ]
+        },
+        {
+          "title": "Variables CSS",
+          "topics": [
+            "¿Qué son las variables CSS?",
+            "Scope",
+            "Herencia y cascada",
+            "Diferencia entre variables CSS y variables SASS",
+            "Variables CSS en RWD",
+            "Variables CSS en creación de temas",
+            "Creando un sistema de botones"
+          ]
+        },
+        {
+          "title": "Pseudoelementos",
+          "topics": [
+            "¿Qué son los pseudoelementos?",
+            "::after y ::before",
+            "attr()",
+            "unicode y quotes",
+            "Imágenes",
+            "Vacío",
+            "Pseudoelementos con variables CSS",
+            "::first-line",
+            "::first-letter",
+            "::selection"
+          ]
+        },
+        {
+          "title": "Listas y contadores",
+          "topics": [
+            "Estructura y tipos de lista",
+            "list-style-type",
+            "List style image",
+            "List style position",
+            "Marker",
+            "Contadores",
+            "Contadores anidados",
+            "Ejercicio con contadores",
+            "Ejercicio calculadora con contadores"
+          ]
+        },
+        {
+          "title": "Tablas y formularios",
+          "topics": [
+            "Estructura de tablas",
+            "Bordes en tablas",
+            "caption-side y empty-cell",
+            "table-layout",
+            "Maquetación y estilos de tablas",
+            "Apariencia de inputs",
+            "Resize",
+            "Focus",
+            "Placeholder shown",
+            "Required, optional",
+            "Enabled, disabled, readonly",
+            "Valid",
+            "Estructura y layout de formularios"
+          ]
+        },
+        {
+          "title": "Filtros",
+          "topics": [
+            "Introducción a los filtros",
+            "Grayscale",
+            "Sepia",
+            "Invert",
+            "Hue-rotate",
+            "Brightness",
+            "Contrast",
+            "Saturate",
+            "Blur",
+            "Opacity",
+            "Drop-shadow",
+            "Ejercicio múltiples filtros en un elemento",
+            "Ejercicio sombra con filtros"
+          ]
+        },
+        {
+          "title": "Blending modes",
+          "topics": [
+            "Introducción a los blending modes",
+            "Multiply",
+            "Screen",
+            "Overlay",
+            "Hard light y Soft light",
+            "Color dodge",
+            "Darken y Lighten",
+            "Difference",
+            "Exclusión",
+            "Hue",
+            "Color",
+            "Saturation",
+            "Luminosity",
+            "Isolation"
+          ]
+        },
+        {
+          "title": "Figuras, recortes y máscaras",
+          "topics": [
+            "Recorte rectangular/interior",
+            "Recorte circular",
+            "Recorte elíptico",
+            "Recorte poligonal",
+            "Recorte con SVG",
+            "Animaciones con recortes",
+            "Máscaras de recortes",
+            "Composición de máscaras",
+            "Banner parallax con máscaras"
+          ]
+        },
+        {
+          "title": "Scroll",
+          "topics": [
+            "Desbordamiento de contenido",
+            "Smooth scroll con CSS",
+            "Controlando posición final del scroll",
+            "Desplazamiento dentro de contenedores",
+            "Scroll fullpages",
+            "Personalización del scroll (Parte 1)",
+            "Personalización del scroll (Parte 2)",
+            "Ejercicio tema dark y white para scroll"
+          ]
+        },
+        {
+          "title": "Layout",
+          "topics": [
+            "Holy grail layout responsive",
+            "Manejo de columnas (Parte 1)",
+            "Manejo de columnas (Parte 2)",
+            "Creando estructura de landing pages (Parte 1)",
+            "Creando estructura de landing pages (Parte 2)",
+            "¿Cuál es el siguiente paso?"
+          ]
+        },
+        {
+          "title": "Conceptos de RWD",
+          "topics": [
+            "Concepto",
+            "Viewport",
+            "Media Queries",
+            "Metodologías",
+            "Unidades relativas: porcentaje",
+            "Unidades relativas: em y rem",
+            "Unidades de viewport",
+            "Unidades de viewport II",
+            "Responsive web design flexbox",
+            "Responsive web design css grid",
+            "Breakpoints"
+          ]
+        },
+        {
+          "title": "Imágenes y videos responsive",
+          "topics": [
+            "Video responsive con CSS",
+            "Video responsive con CSS grid",
+            "Imágenes responsive con CSS",
+            "Imágenes responsive con picture",
+            "Imágenes responsive con srcset"
+          ]
+        },
+        {
+          "title": "RWD en JavaScript",
+          "topics": [
+            "CSSOM",
+            "Propiedad style",
+            "Propiedad style II",
+            "Trabajando con variables CSS",
+            "Media queries con JavaScript"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "javascript-introductorio",
+      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para adentrarse en el mundo de la tecnología web a través de los contenidos de este curso.",
+      "requirements": "Para este curso es importante que el estudiante tenga bases sólidas en programación, ya que este curso no está orientado a enseñar a programar desde cero.",
+      "audience": "Dirigido a quien desee adentrarse en el mundo de la tecnología web: pueden venir del área de diseño, de desarrollo o no saber absolutamente nada, ya que el curso es desde cero.",
+      "learnings": [
+        "Las bases y particularidades de JS.",
+        "Escribir código óptimo y reutilizable.",
+        "Manipular datos y colecciones de datos.",
+        "Aplicar lógica de programación en JS."
+      ],
+      "modules": [
+        {
+          "title": "Introducción",
+          "topics": [
+            "Bienvenidos al curso",
+            "Origen de JavaScript",
+            "ECMA",
+            "Motor V8",
+            "Requerimientos",
+            "Escribamos nuestra primera línea de código"
+          ]
+        },
+        {
+          "title": "Sintaxis",
+          "topics": [
+            "Comentarios",
+            "Tipos de datos",
+            "Tipos de dato objeto",
+            "Declaración y asignación",
+            "Asignación por referencia",
+            "Constantes"
+          ]
+        },
+        {
+          "title": "Operadores",
+          "topics": [
+            "Operadores aritméticos",
+            "Operadores de asignación",
+            "Operadores de concatenación",
+            "Operadores de comparación I",
+            "Operadores de comparación II",
+            "Operadores lógicos",
+            "Operadores unarios y ternarios",
+            "Type coerción"
+          ]
+        },
+        {
+          "title": "Condicionales y ciclos",
+          "topics": [
+            "Las condicionales",
+            "If Else",
+            "If Else If",
+            "Switch",
+            "Ciclo for",
+            "Ciclo con for",
+            "Ciclo While"
+          ]
+        },
+        {
+          "title": "Funciones",
+          "topics": [
+            "Sintaxis básica",
+            "Parámetro",
+            "Valores de retorno",
+            "Funciones de primera clase",
+            "Funciones anónimas",
+            "Funciones como constantes",
+            "Scope",
+            "Funciones flecha"
+          ]
+        },
+        {
+          "title": "Colecciones de datos",
+          "topics": [
+            "Métodos de Array",
+            "Métodos que no modifican el array",
+            "ForEach",
+            "ForEach vs Map",
+            "Filter",
+            "Find, includes, some, every",
+            "Manipulando strings",
+            "Valores y atributos de los objetos",
+            "Math y date"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ai-aplicada-web",
+      "objective": "Presentar a estudiantes principiantes los conceptos esenciales de inteligencia artificial aplicada al desarrollo web, con ejemplos claros, práctica guiada y uso de herramientas actuales como Cursor.",
+      "requirements": "Se recomienda haber iniciado HTML y CSS. No se requiere experiencia previa con IA. Es importante contar con conocimientos básicos de computación y manejo de internet.",
+      "audience": "Principiantes en desarrollo web que quieren entender qué es la IA, cómo pueden usarla en sus proyectos y aprender a hacerlo de forma responsable.",
+      "learnings": [
+        "Comprender qué es la IA, qué son los LLM y qué hace un agente.",
+        "Usar IA para apoyar la creación y mejora de sitios web.",
+        "Aplicar ejemplos y prácticas reales en HTML, CSS y JavaScript.",
+        "Conocer Cursor como herramienta para aprender y desarrollar más rápido."
+      ],
+      "modules": [
+        {
+          "title": "Introducción a la IA",
+          "topics": [
+            "¿Qué es la inteligencia artificial?",
+            "IA en el día a día y en la web",
+            "Mitos, límites y uso responsable",
+            "Por qué importa para quien está empezando"
+          ]
+        },
+        {
+          "title": "Modelos de lenguaje (LLM)",
+          "topics": [
+            "¿Qué es un LLM?",
+            "Cómo funciona, explicado de forma simple",
+            "Qué es un prompt y cómo pedir mejor",
+            "Buenas prácticas al usar un LLM"
+          ]
+        },
+        {
+          "title": "Agentes de IA",
+          "topics": [
+            "¿Qué es un agente?",
+            "Diferencia entre chat y agente",
+            "Qué tareas puede automatizar un agente",
+            "Cuándo conviene usar un agente en desarrollo web"
+          ]
+        },
+        {
+          "title": "Ejemplos aplicados a la web",
+          "topics": [
+            "Generar ideas para un sitio o landing",
+            "Mejorar textos, títulos y estructura HTML",
+            "Depurar CSS y JavaScript con ayuda de IA",
+            "Crear secciones y componentes con asistencia"
+          ]
+        },
+        {
+          "title": "Práctica guiada",
+          "topics": [
+            "Ejercicio: definir un mini proyecto web con IA",
+            "Ejercicio: generar y revisar código asistido",
+            "Ejercicio: iterar, corregir y mejorar resultados",
+            "Checklist: siempre revisar y entender lo generado"
+          ]
+        },
+        {
+          "title": "Cursor como herramienta",
+          "topics": [
+            "¿Qué es Cursor?",
+            "Interfaz básica: editor, chat y agente",
+            "Flujo recomendado para principiantes",
+            "Consejos para aprender sin depender al 100% de la IA"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "git-introductorio",
+      "objective": "Introducir a estudiantes principiantes en Git y GitHub con un enfoque práctico para guardar, compartir y publicar sus proyectos web en línea.",
+      "requirements": "Se recomienda haber visto HTML y CSS. Necesitas una cuenta en GitHub y conocimientos básicos de computación e internet.",
+      "audience": "Principiantes en desarrollo web que quieren aprender a versionar su código, colaborar con repositorios remotos y publicar un sitio con GitHub Pages.",
+      "learnings": [
+        "Crear y configurar un repositorio Git.",
+        "Registrar cambios con commits.",
+        "Sincronizar tu código con pull y push.",
+        "Publicar un sitio web en GitHub Pages."
+      ],
+      "modules": [
+        {
+          "title": "Introducción a Git",
+          "topics": [
+            "¿Qué es Git y para qué sirve?",
+            "Repositorio local vs remoto",
+            "Instalación y configuración inicial",
+            "Conceptos básicos: working directory, staging y commit"
+          ]
+        },
+        {
+          "title": "Crear un repositorio",
+          "topics": [
+            "Crear un repositorio en GitHub",
+            "Clonar un repositorio existente",
+            "Inicializar Git en un proyecto local (git init)",
+            "Primer commit de tu proyecto"
+          ]
+        },
+        {
+          "title": "Commits",
+          "topics": [
+            "¿Qué es un commit?",
+            "git status y git add",
+            "git commit con mensajes claros",
+            "Ver el historial con git log"
+          ]
+        },
+        {
+          "title": "Pull y push",
+          "topics": [
+            "¿Qué es push y qué es pull?",
+            "Conectar repositorio local con GitHub",
+            "git push para subir cambios",
+            "git pull para traer cambios del remoto"
+          ]
+        },
+        {
+          "title": "Publicación en GitHub Pages",
+          "topics": [
+            "¿Qué es GitHub Pages?",
+            "Preparar un proyecto web para publicar",
+            "Activar GitHub Pages desde el repositorio",
+            "Actualizar tu sitio con nuevos commits"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "html-intermedio",
+      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para avanzar en temas más profundos de HTML5.",
+      "requirements": "Debes tener conocimientos sólidos adquiridos en el módulo Front End Introductorio: HTML5 Introductorio, CSS Introductorio y JavaScript Introductorio.",
+      "audience": "Dirigido a quien desee profundizar en el mundo de la tecnología web, ya sea desde el área de diseño o desde el desarrollo de software.",
+      "learnings": [
+        "Etiquetado con SVG.",
+        "Alternativas de creación de contenido (Markdown).",
+        "Elementos de multimedia."
+      ],
+      "modules": [
+        {
+          "title": "Multimedia",
+          "topics": [
+            "Audio",
+            "Video",
+            "Usando API de la cámara"
+          ]
+        },
+        {
+          "title": "SVG",
+          "topics": [
+            "Formas básicas",
+            "DOM SVG",
+            "Transformaciones",
+            "Paths",
+            "Degradados",
+            "Textos",
+            "Máscaras",
+            "Recortes",
+            "Iconos",
+            "SVG responsive",
+            "Animaciones SVG"
+          ]
+        },
+        {
+          "title": "Markdown",
+          "topics": [
+            "Encabezados, párrafos y listas",
+            "Imágenes y enlaces",
+            "Código",
+            "Texto",
+            "Tablas",
+            "Editores online",
+            "Herramientas para escritores",
+            "Herramientas para programadores",
+            "Aplicaciones de notas",
+            "Herramientas con soporte Markdown"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "css-intermedio",
+      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para adentrarse en temas más profundos y actualizados de CSS, demostrando lo aprendido con un proyecto integrador.",
+      "requirements": "Es esencial tener los conocimientos adquiridos en CSS Introductorio.",
+      "audience": "Dirigido a quien desee actualizar sus conocimientos en tecnologías actuales de CSS, como Flexbox y CSS Grid.",
+      "learnings": [
+        "Layouts modernos con Flexbox y CSS Grid.",
+        "Transiciones, animaciones y transformaciones.",
+        "Maquetación responsive y resolución de problemas reales con CSS."
+      ],
+      "modules": [
+        {
+          "title": "Flex container",
+          "topics": [
+            "¿Qué es Flexbox?",
+            "Soporte de los navegadores a Flexbox",
+            "Main axis y cross axis",
+            "Flujo de Flexbox",
+            "Alineación en Flexbox"
+          ]
+        },
+        {
+          "title": "Flex items",
+          "topics": [
+            "Flex items",
+            "Propiedad flex-grow",
+            "Propiedad flex-shrink",
+            "Propiedad flex-basis",
+            "Propiedad flex",
+            "Propiedad align-self",
+            "Propiedad order"
+          ]
+        },
+        {
+          "title": "Problemas resueltos con Flexbox",
+          "topics": [
+            "Centrado absoluto",
+            "Menú responsive",
+            "Banner animado",
+            "Solucionar elementos aplastados",
+            "Tarjeta de usuario",
+            "Layout responsive"
+          ]
+        },
+        {
+          "title": "Grid container",
+          "topics": [
+            "¿Qué es CSS Grid?",
+            "Terminología y elementos de CSS Grid",
+            "Inspeccionar elementos de CSS Grid",
+            "Definir tracks (filas y columnas)",
+            "Propiedad grid-gap y unidad fr",
+            "Posicionar grid-items",
+            "Propiedades grid-column y grid-row",
+            "Función repeat() y creación de layout"
+          ]
+        },
+        {
+          "title": "Grid items",
+          "topics": [
+            "Tracks flexibles con fr",
+            "Tracks flexibles con min-content, max-content y fit-content()",
+            "Tracks flexibles con minmax(), auto-fit y auto-fill",
+            "Utilizar áreas",
+            "Galería de fotos con CSS Grid"
+          ]
+        },
+        {
+          "title": "CSS Grid a fondo",
+          "topics": [
+            "Alinear items",
+            "Alinear tracks",
+            "Grid placement"
+          ]
+        },
+        {
+          "title": "Transiciones",
+          "topics": [
+            "Introducción a las transiciones",
+            "Transiciones de varias propiedades",
+            "Evento transitionend",
+            "Transiciones de ida y vuelta",
+            "Disparadores de transiciones con pseudoclases",
+            "Disparadores de transiciones con pseudoclases en formularios",
+            "Efecto tarjeta",
+            "Menú off canvas"
+          ]
+        },
+        {
+          "title": "Animaciones",
+          "topics": [
+            "Animaciones vs transiciones",
+            "Animation name y duration",
+            "Animation timing function",
+            "Animation iteration-count y direction",
+            "Animation play-state",
+            "Animation delay y fill-mode",
+            "Shorthand animation",
+            "Reverse animation",
+            "Animation event",
+            "Controlar animaciones CSS con JavaScript",
+            "Animaciones con scroll",
+            "Cubic bezier",
+            "Ejemplos de cubic bezier",
+            "Sprites"
+          ]
+        },
+        {
+          "title": "Transformaciones",
+          "topics": [
+            "Introducción al sistema de coordenadas",
+            "Funciones de transformación 2D",
+            "Transform origin",
+            "Orden de las transformaciones",
+            "Ejercicio reloj",
+            "Transformaciones 3D",
+            "3D axis y perspectiva",
+            "Crear un cubo 3D",
+            "Dado 3D"
+          ]
+        },
+        {
+          "title": "Animaciones CSS y SVG",
+          "topics": [
+            "Insertar SVG en mi web",
+            "Software para la creación de SVG",
+            "Estructura de un SVG",
+            "Texto y línea",
+            "Ejercicio de línea y texto",
+            "Animación con el logo de Angular"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "seo-intermedio",
+      "objective": "Capacitar al estudiante en temas de posicionamiento web SEO, una de las profesiones con mayor demanda laboral, con una introducción a aspectos relacionados con el marketing digital.",
+      "requirements": "Es obligatorio tener aprobados los cursos de Desarrollo Web Introductorio: HTML Introductorio, CSS Introductorio y JavaScript Introductorio.",
+      "audience": "Estudiantes que quieran profundizar sus conocimientos, cuenten con las bases del módulo introductorio y deseen adentrarse en marketing digital y visibilidad web.",
+      "learnings": [
+        "No depender de plataformas o checklist.",
+        "Auditar un sitio web completamente.",
+        "Posicionar tu sitio en motores de búsqueda."
+      ],
+      "modules": [
+        {
+          "title": "SEO introductorio",
+          "topics": [
+            "Definición de SEO",
+            "Conceptos básicos",
+            "Arquitectura de la información",
+            "Arquitectura web: aspectos tácticos",
+            "Anidaciones y detalles"
+          ]
+        },
+        {
+          "title": "SEO avanzado",
+          "topics": [
+            "Optimización SEO On site",
+            "SEO Off page",
+            "SEO Mobile & ASO",
+            "Internacionalización y multilenguaje",
+            "JavaScript y el SEO"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "javascript-intermedio",
+      "objective": "Capacitar al estudiante en todo lo referente a cómo funciona el árbol de nodos del navegador.",
+      "requirements": "Es esencial tener los conocimientos adquiridos en JavaScript Introductorio.",
+      "audience": "Dirigido a quien desee actualizar sus conocimientos en tecnologías actuales de JavaScript en el navegador.",
+      "learnings": [
+        "Entender el árbol DOM.",
+        "Manipular los elementos del DOM.",
+        "Mover, clonar, quitar y reemplazar elementos del DOM.",
+        "Manejar eventos de mouse, teclado, formularios, pantalla, timers y fechas con JavaScript."
+      ],
+      "modules": [
+        {
+          "title": "El DOM y el BOM",
+          "topics": [
+            "El DOM",
+            "Nodos",
+            "Seleccionar nodos",
+            "Colecciones de nodos",
+            "Atributos",
+            "Contenido",
+            "Crear elementos en el DOM"
+          ]
+        },
+        {
+          "title": "Los eventos",
+          "topics": [
+            "Los eventos",
+            "Eventos de mouse",
+            "Eventos de teclado",
+            "Eventos de formulario",
+            "Eventos del DOM y navegador",
+            "Eventos multimedia",
+            "Propagación de eventos",
+            "Delegación de eventos"
+          ]
+        },
+        {
+          "title": "Manipular el DOM",
+          "topics": [
+            "DOM traversing",
+            "insertBefore()",
+            "Ejercicio con insertBefore()",
+            "insertAdjacent",
+            "Reemplazar hijos",
+            "Métodos de jQuery",
+            "Clonar y eliminar",
+            "Crear elementos y fragmentos",
+            "Templates (HTML)",
+            "CSSOM (CSS)"
+          ]
+        },
+        {
+          "title": "El navegador",
+          "topics": [
+            "Objeto window",
+            "Ejercicio responsive tester",
+            "Objeto location",
+            "Objeto history",
+            "Objeto navigator",
+            "Timers",
+            "Objeto Date"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nodejs-automatizacion",
+      "objective": "Capacitar a los estudiantes en herramientas actuales de automatización con Node.js y npm, para optimizar el flujo de desarrollo web y concentrarse en crear con mayor productividad.",
+      "requirements": "Es esencial contar con los conocimientos de Desarrollo Web Introductorio y Desarrollo Web Intermedio.",
+      "audience": "Dirigido a quien desee actualizar sus conocimientos en automatización moderna del desarrollo frontend y tooling actual.",
+      "learnings": [
+        "Bases de Node.js y el ecosistema npm.",
+        "Configurar proyectos con package.json y scripts.",
+        "Automatizar build, preview y tareas con herramientas actuales como Vite."
+      ],
+      "modules": [
+        {
+          "title": "Node.js y npm",
+          "topics": [
+            "Introducción a Node.js",
+            "Instalación y verificación del entorno",
+            "¿Qué es npm?",
+            "Comandos esenciales de npm",
+            "Versionado semántico de dependencias"
+          ]
+        },
+        {
+          "title": "package.json y scripts",
+          "topics": [
+            "Estructura de package.json",
+            "Dependencias vs devDependencies",
+            "Scripts personalizados (dev, build, preview)",
+            "Variables de entorno en desarrollo",
+            "Buenas prácticas de configuración"
+          ]
+        },
+        {
+          "title": "Vite como entorno moderno",
+          "topics": [
+            "¿Por qué Vite en lugar de bundlers antiguos?",
+            "Crear un proyecto con Vite",
+            "Estructura del proyecto",
+            "Hot Module Replacement (HMR)",
+            "Build de producción"
+          ]
+        },
+        {
+          "title": "Automatización del flujo",
+          "topics": [
+            "Linting y formato de código",
+            "Optimización de assets",
+            "Automatizar tareas repetitivas con scripts",
+            "Integración con el editor (Cursor / VS Code)",
+            "Flujo recomendado para equipos pequeños"
+          ]
+        },
+        {
+          "title": "Publicación y despliegue",
+          "topics": [
+            "Preparar el proyecto para producción",
+            "Publicar build estático",
+            "Automatizar despliegue con GitHub Actions (intro)",
+            "Buenas prácticas antes de subir a producción"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "html5-avanzado",
+      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para avanzar en APIs y capacidades avanzadas de HTML5 en proyectos web modernos.",
+      "requirements": "Debes tener conocimientos sólidos de HTML Intermedio, CSS Intermedio y JavaScript Intermedio.",
+      "audience": "Dirigido a quien desee profundizar en el mundo de la tecnología web, desde diseño o desarrollo de software.",
+      "learnings": [
+        "Las diferentes APIs de HTML5.",
+        "Almacenamiento, canvas y multimedia en el navegador.",
+        "Interacciones avanzadas como drag and drop."
+      ],
+      "modules": [
+        {
+          "title": "Almacenamiento en el navegador",
+          "topics": [
+            "localStorage y sessionStorage",
+            "Guardar y recuperar datos",
+            "Serialización con JSON",
+            "Buenas prácticas y limitaciones",
+            "Introducción a IndexedDB"
+          ]
+        },
+        {
+          "title": "Canvas y gráficos",
+          "topics": [
+            "Introducción a Canvas 2D",
+            "Dibujar formas, texto e imágenes",
+            "Animaciones básicas con Canvas",
+            "Introducción a gráficos y efectos visuales",
+            "Optimización y casos de uso"
+          ]
+        },
+        {
+          "title": "Multimedia y APIs del navegador",
+          "topics": [
+            "Audio y video avanzados",
+            "Media API",
+            "Geolocalización",
+            "Notificaciones (intro)",
+            "Web Workers (intro)"
+          ]
+        },
+        {
+          "title": "Drag and Drop",
+          "topics": [
+            "API de arrastrar y soltar",
+            "Eventos dragstart, dragover y drop",
+            "Transferencia de datos",
+            "Ejercicio: lista reordenable",
+            "Accesibilidad y compatibilidad"
+          ]
+        },
+        {
+          "title": "Formularios y atributos avanzados",
+          "topics": [
+            "Validación nativa avanzada",
+            "Nuevos tipos de input",
+            "Atributos data-* y personalización",
+            "Semántica avanzada en HTML5",
+            "Integración con JavaScript"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sass-tailwind",
+      "objective": "Capacitar al estudiante en Sass como preprocesador CSS y en Tailwind CSS 4 para construir interfaces modernas, escalables y mantenibles.",
+      "requirements": "Es obligatorio tener aprobados los cursos de Desarrollo Web Introductorio: HTML, CSS y JavaScript.",
+      "audience": "Estudiantes que quieran profundizar en CSS avanzado, preprocesadores y frameworks utility-first actuales.",
+      "learnings": [
+        "Sintaxis de Sass, mixins y funciones.",
+        "Modularizar y depurar código CSS con Sass.",
+        "Construir interfaces con Tailwind CSS 4.",
+        "Combinar Sass y Tailwind en proyectos reales."
+      ],
+      "modules": [
+        {
+          "title": "Sintaxis",
+          "topics": [
+            "Desventajas de CSS plano",
+            "¿Qué es Sass?",
+            "Compilar Sass",
+            "Variables",
+            "Anidamiento",
+            "Tipos de datos",
+            "@import y partials"
+          ]
+        },
+        {
+          "title": "Ciclos y condicionales",
+          "topics": [
+            "Estructura de un proyecto Sass",
+            "@extend",
+            "Condicionales",
+            "@for",
+            "Ciclo @each",
+            "Ejercicios con ciclos"
+          ]
+        },
+        {
+          "title": "Mixins",
+          "topics": [
+            "Definición de mixins",
+            "Parámetros y argumentos",
+            "Parámetros múltiples",
+            "Directiva @content",
+            "Mixin para responsive web design"
+          ]
+        },
+        {
+          "title": "Funciones y color",
+          "topics": [
+            "Definición de funciones",
+            "Funciones para em e imágenes",
+            "Funciones de strings, números, listas y mapas",
+            "Modos de color y funciones de color Sass",
+            "Ejercicio long shadow"
+          ]
+        },
+        {
+          "title": "Debugging Sass",
+          "topics": [
+            "Opciones de compilación",
+            "Sourcemaps",
+            "@debug, @warn y @error",
+            "Estructura de proyecto Sass"
+          ]
+        },
+        {
+          "title": "Introducción a Tailwind CSS 4",
+          "topics": [
+            "Enfoque utility-first",
+            "Instalación con Vite",
+            "Configuración con @theme y design tokens",
+            "Clases utilitarias esenciales",
+            "Responsive design con breakpoints"
+          ]
+        },
+        {
+          "title": "Tailwind CSS 4 en profundidad",
+          "topics": [
+            "Estados: hover, focus y dark mode",
+            "Layout con Flexbox y Grid utilities",
+            "Componentes reutilizables",
+            "Custom properties y extensión del tema",
+            "Integración Sass + Tailwind en un mismo proyecto"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "javascript-avanzado",
+      "objective": "Dar continuidad a la formación intermedia con paradigmas avanzados de JavaScript y consumo de APIs en aplicaciones web reales.",
+      "requirements": "Es obligatorio tener aprobados JavaScript Introductorio y JavaScript Intermedio.",
+      "audience": "Estudiantes que quieran profundizar en programación avanzada en el navegador y trabajo con servicios externos.",
+      "learnings": [
+        "Programación orientada a objetos en JavaScript.",
+        "Programación asíncrona y consumo de APIs.",
+        "Trabajar con fetch, promesas y async/await."
+      ],
+      "modules": [
+        {
+          "title": "Paradigmas de programación en JS",
+          "topics": [
+            "Programación orientada a objetos",
+            "Clases, herencia y encapsulamiento",
+            "Programación reactiva (intro)",
+            "Programación asíncrona",
+            "Patrones útiles en frontend"
+          ]
+        },
+        {
+          "title": "Ajax y HTTP",
+          "topics": [
+            "Definición del protocolo HTTP",
+            "Métodos del protocolo HTTP",
+            "Códigos de respuesta",
+            "Cabeceras",
+            "Introducción a XMLHttpRequest"
+          ]
+        },
+        {
+          "title": "Procesando respuestas",
+          "topics": [
+            "Estado de la petición",
+            "Creación de un loader",
+            "Procesamiento de datos",
+            "Trabajar con JSON",
+            "Actualizar el DOM con datos del servidor",
+            "Manejo de errores HTTP"
+          ]
+        },
+        {
+          "title": "Promesas",
+          "topics": [
+            "Funciones callback",
+            "Trabajando con promesas",
+            "Uso de async y await",
+            "Introducción a consumo de APIs públicas",
+            "Creando una librería AJAX reutilizable",
+            "Recapitulación del flujo asíncrono"
+          ]
+        },
+        {
+          "title": "Alternativas modernas a XHR",
+          "topics": [
+            "fetch()",
+            "Async y await con fetch",
+            "Enviar contenidos con fetch (GET y POST)",
+            "Introducción a axios",
+            "Templates dinámicos con datos de API"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "git-avanzado",
+      "objective": "Capacitar a los estudiantes en Git como herramienta profesional de control de versiones, trabajo colaborativo, ramas y despliegues. Saber Git es esencial en el desarrollo de software.",
+      "requirements": "Conocimientos de Git Introductorio y bases sólidas de desarrollo web. Es importante haber versionado proyectos reales con HTML, CSS y JavaScript.",
+      "audience": "Dirigido a quien desee dominar flujos de trabajo profesionales con Git, colaboración en equipo y despliegues automatizados.",
+      "learnings": [
+        "Usar Git con fluidez en proyectos reales.",
+        "Trabajar con ramas locales y remotas.",
+        "Colaborar en equipo con pull requests.",
+        "Automatizar despliegues con Git y CI/CD."
+      ],
+      "modules": [
+        {
+          "title": "Introducción a Git",
+          "topics": [
+            "Introducción a Git",
+            "Instalación y configuración",
+            "Mi primer repositorio",
+            "Los estados de Git",
+            "Aprendiendo a escribir commits"
+          ]
+        },
+        {
+          "title": "Primeros pasos",
+          "topics": [
+            "Opciones de git add y git commit",
+            "Modificando la estructura del proyecto",
+            "Archivos modificados y archivos nuevos",
+            "Deshaciendo cambios realizados",
+            "Ver cambios con git diff"
+          ]
+        },
+        {
+          "title": "Ramas locales e historial",
+          "topics": [
+            "Historial de cambios",
+            "Opciones de visualización del historial",
+            "Ramas locales",
+            "Creando y cambiando ramas",
+            "Fusionando ramas (merge)"
+          ]
+        },
+        {
+          "title": "Ramas remotas y trabajo colaborativo",
+          "topics": [
+            "Ramas remotas",
+            "git push y git pull avanzado",
+            "Pull requests y code review",
+            "Resolviendo conflictos",
+            "Ignorando archivos con .gitignore",
+            "Eliminando ramas remotas"
+          ]
+        },
+        {
+          "title": "Flujos de trabajo profesionales",
+          "topics": [
+            "Git Flow vs Trunk Based (intro)",
+            "Ramas feature, develop y main",
+            "Rebase interactivo (intro)",
+            "Conventional Commits",
+            "Buenas prácticas en equipos"
+          ]
+        },
+        {
+          "title": "Despliegues y CI/CD",
+          "topics": [
+            "Despliegue con GitHub Pages avanzado",
+            "Entornos: desarrollo, staging y producción",
+            "GitHub Actions para build y deploy",
+            "Automatizar publicación al hacer push",
+            "Rollback y tags de versión"
+          ]
+        },
+        {
+          "title": "Herramientas gráficas",
+          "topics": [
+            "Git integrado en VS Code / Cursor",
+            "GitHub Desktop",
+            "Visualizar historial y ramas",
+            "Resolver conflictos con interfaz gráfica"
+          ]
+        }
+      ]
+    }
+  ]
+}
