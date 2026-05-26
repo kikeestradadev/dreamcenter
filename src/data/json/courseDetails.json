@@ -2,22 +2,21 @@
   "courseDetails": [
     {
       "slug": "html5-introductorio",
-      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para adentrarse en el mundo de la tecnología web a través de los contenidos de este curso.",
-      "requirements": "No requieres tener ningún conocimiento previo, ya que este curso es la base para los siguientes niveles más avanzados. Sin embargo, es importante contar con conocimientos sólidos en computación y manejo de internet.",
-      "audience": "Dirigido a quien desee adentrarse en el mundo de la tecnología web: pueden venir del área de diseño, de desarrollo o no saber absolutamente nada, ya que el curso es desde cero.",
+      "objective": "Aprender a estructurar páginas web con HTML5: documentos semánticos, contenido multimedia, formularios y buenas prácticas para publicar en internet.",
+      "requirements": "No se requiere conocimiento previo de desarrollo web. Conocimientos básicos de computación e internet.",
+      "audience": "Principiantes que quieren crear sus primeras páginas web desde cero, sin relleno teórico innecesario.",
       "learnings": [
-        "Crear documentos HTML.",
-        "Crear páginas web bien estructuradas.",
-        "Conocer las últimas características de HTML5."
+        "Crear documentos HTML bien estructurados.",
+        "Usar etiquetas semánticas, enlaces, imágenes y formularios.",
+        "Comprender cómo funciona la web y aplicar accesibilidad básica."
       ],
       "modules": [
         {
-          "title": "Introducción",
+          "title": "Fundamentos de la web",
           "topics": [
-            "¿Qué es HTML?",
-            "¿Qué es HTML5?",
-            "Herramientas",
-            "Sintaxis de HTML"
+            "Cómo funciona la web: cliente, servidor y HTTP",
+            "Sintaxis de HTML",
+            "Editor de código y DevTools del navegador"
           ]
         },
         {
@@ -26,7 +25,8 @@
             "Contenido del HEAD",
             "HTML, CSS y JavaScript",
             "Títulos y párrafos",
-            "Etiquetas de sección"
+            "Etiquetas de sección",
+            "HTML semántico y accesibilidad básica"
           ]
         },
         {
@@ -51,6 +51,7 @@
             "Tipo de imágenes",
             "Formato de imágenes",
             "Insertar imágenes en HTML",
+            "Texto alternativo (alt)",
             "Srcset",
             "Picture",
             "Figura",
@@ -74,29 +75,26 @@
             "Estructura completa de un formulario",
             "Tipos de input",
             "Opciones de selección",
-            "Atributos de formularios"
+            "Atributos de formularios",
+            "Labels y accesibilidad en formularios"
           ]
         }
       ]
     },
     {
       "slug": "css-introductorio",
-      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para adentrarse en el mundo de la tecnología web a través de los contenidos de este curso.",
-      "requirements": "No requieres tener ningún conocimiento previo, ya que este curso es la base para los siguientes niveles más avanzados. Sin embargo, es importante contar con conocimientos sólidos en computación y manejo de internet.",
-      "audience": "Dirigido a quien desee adentrarse en el mundo de la tecnología web: pueden venir del área de diseño, de desarrollo o no saber absolutamente nada, ya que el curso es desde cero.",
+      "objective": "Aprender a estilizar páginas web con CSS: conectar estilos al HTML, aplicar selectores, dominar el box model y crear diseños responsive básicos.",
+      "requirements": "No se requiere conocimiento previo de CSS. Conocimientos básicos de computación e internet.",
+      "audience": "Principiantes que quieren dar formato visual a sus páginas web desde cero, sin relleno teórico innecesario.",
       "learnings": [
-        "Fundamentos, sintaxis y buenas prácticas de CSS.",
-        "Selectores, pseudoclases y modelo de caja.",
-        "Manejo del texto y del color."
+        "Conectar CSS al HTML y escribir estilos con sintaxis correcta.",
+        "Selectores, cascada, especificidad y box model.",
+        "Color, tipografía, pseudoclases y diseño responsive básico."
       ],
       "modules": [
         {
-          "title": "Introducción",
+          "title": "Fundamentos",
           "topics": [
-            "Introducción",
-            "Requisitos para el curso",
-            "Historia de CSS",
-            "Módulos CSS",
             "Conectar HTML y CSS",
             "Sintaxis de CSS",
             "Variables CSS"
@@ -106,312 +104,108 @@
           "title": "Selectores",
           "topics": [
             "Estilos del navegador",
-            "Selectores",
-            "Selectores simples: etiqueta",
-            "Selectores simples: clases",
-            "Selectores simples: Id",
-            "Selectores compuestos: agrupados",
-            "Selectores compuestos: combinados",
-            "Selectores compuestos: descendientes",
-            "Selectores con operadores + > ~ *",
-            "Selectores de atributos",
-            "Selector de atributos con comodines"
+            "Selectores por etiqueta, clase e id",
+            "Selectores agrupados y combinados",
+            "Selectores descendientes e hijo directo",
+            "Selectores de atributos"
           ]
         },
         {
-          "title": "Los pilares de CSS",
+          "title": "Cascada y especificidad",
           "topics": [
             "¿Cómo funciona CSS?",
             "Especificidad",
             "Cascada",
-            "Estilos computados",
             "Herencia"
           ]
         },
         {
           "title": "Box model",
           "topics": [
-            "Elementos de línea y de bloque",
+            "Elementos de bloque y de línea",
             "Propiedad display",
-            "Margin",
-            "Padding",
-            "Bordes",
-            "Propiedad box-sizing"
+            "Margin y padding",
+            "Bordes y box-sizing"
           ]
         },
         {
-          "title": "Bordes y sombras",
+          "title": "Bordes, fondos y color",
           "topics": [
-            "border",
-            "Border radius",
-            "Outline",
-            "Box shadow"
+            "border, border-radius y box-shadow",
+            "background-color, background-image y background-size",
+            "Colores en hex, RGB y HSL",
+            "Degradados lineales y radiales"
           ]
         },
         {
-          "title": "Pseudoclases",
+          "title": "Texto y tipografía",
           "topics": [
-            "¿Qué son las pseudoclases?",
-            ":hover :active :visited",
-            ":target :not :empty",
-            ":first-child :last-child :first-of-type :last-of-type",
-            ":nth-child :nth-of-type"
+            "Unidades em y rem",
+            "font-family, tamaño y peso",
+            "Alineación, decoración y sombras de texto",
+            "Fuentes web y @font-face",
+            "Overflow y desbordamiento de texto"
           ]
         },
         {
-          "title": "Fondos",
+          "title": "Pseudoclases y pseudoelementos",
           "topics": [
-            "background-color",
-            "background-size",
-            "background-position",
-            "background-clip y background-origin",
-            "background-attachment",
-            "Background múltiples",
-            "Shorthand Background"
-          ]
-        },
-        {
-          "title": "Color",
-          "topics": [
-            "Currentcolor",
-            "Color keywords",
-            "Modo RGB",
-            "Notación hexadecimal",
-            "Modo HSL",
-            "Degradados lineales",
-            "Degradados radiales",
-            "Degradados repetidos",
-            "Ejercicio Ying-Yang"
-          ]
-        },
-        {
-          "title": "Texto",
-          "topics": [
-            "Conceptos básicos de tipografía",
-            "Unidades de medida em y rem",
-            "Estilos básicos de texto",
-            "Font Family",
-            "Sombras de texto",
-            "Fuentes para la web",
-            "@font-face",
-            "font-display",
-            "Creando un sistema de fuentes",
-            "Espacios en blanco",
-            "Flujo y desbordamiento",
-            "Resolver desbordamiento",
-            "Ejercicio controlar texto en vertical"
+            ":hover, :active, :focus y :visited",
+            ":first-child, :last-child y :nth-child",
+            "::before y ::after"
           ]
         },
         {
           "title": "Position",
           "topics": [
-            "Flujo y espacio reservado",
-            "Propiedades offset (top, left, right, bottom)",
-            "Position relative",
-            "Position absolute",
-            "Ejercicio tooltip",
-            "Ejercicio menú desplegable",
-            "Repasando temas de posicionamiento",
-            "Position fixed",
-            "Position sticky",
-            "Stacking context",
-            "z-index",
-            "pointer-events",
-            "Ejercicio modal"
+            "Flujo normal del documento",
+            "relative, absolute, fixed y sticky",
+            "z-index y stacking context"
           ]
         },
         {
-          "title": "Variables CSS",
+          "title": "Listas, tablas y formularios",
           "topics": [
-            "¿Qué son las variables CSS?",
-            "Scope",
-            "Herencia y cascada",
-            "Diferencia entre variables CSS y variables SASS",
-            "Variables CSS en RWD",
-            "Variables CSS en creación de temas",
-            "Creando un sistema de botones"
+            "Estilos de listas",
+            "Estilos básicos de tablas",
+            "Estilos de inputs y estados de formulario",
+            "Layout básico de formularios"
           ]
         },
         {
-          "title": "Pseudoelementos",
+          "title": "Diseño responsive",
           "topics": [
-            "¿Qué son los pseudoelementos?",
-            "::after y ::before",
-            "attr()",
-            "unicode y quotes",
-            "Imágenes",
-            "Vacío",
-            "Pseudoelementos con variables CSS",
-            "::first-line",
-            "::first-letter",
-            "::selection"
+            "Viewport y meta viewport",
+            "Media queries",
+            "Unidades relativas: %, em, rem y viewport",
+            "Mobile first y breakpoints"
           ]
         },
         {
-          "title": "Listas y contadores",
+          "title": "Imágenes y medios responsive",
           "topics": [
-            "Estructura y tipos de lista",
-            "list-style-type",
-            "List style image",
-            "List style position",
-            "Marker",
-            "Contadores",
-            "Contadores anidados",
-            "Ejercicio con contadores",
-            "Ejercicio calculadora con contadores"
-          ]
-        },
-        {
-          "title": "Tablas y formularios",
-          "topics": [
-            "Estructura de tablas",
-            "Bordes en tablas",
-            "caption-side y empty-cell",
-            "table-layout",
-            "Maquetación y estilos de tablas",
-            "Apariencia de inputs",
-            "Resize",
-            "Focus",
-            "Placeholder shown",
-            "Required, optional",
-            "Enabled, disabled, readonly",
-            "Valid",
-            "Estructura y layout de formularios"
-          ]
-        },
-        {
-          "title": "Filtros",
-          "topics": [
-            "Introducción a los filtros",
-            "Grayscale",
-            "Sepia",
-            "Invert",
-            "Hue-rotate",
-            "Brightness",
-            "Contrast",
-            "Saturate",
-            "Blur",
-            "Opacity",
-            "Drop-shadow",
-            "Ejercicio múltiples filtros en un elemento",
-            "Ejercicio sombra con filtros"
-          ]
-        },
-        {
-          "title": "Blending modes",
-          "topics": [
-            "Introducción a los blending modes",
-            "Multiply",
-            "Screen",
-            "Overlay",
-            "Hard light y Soft light",
-            "Color dodge",
-            "Darken y Lighten",
-            "Difference",
-            "Exclusión",
-            "Hue",
-            "Color",
-            "Saturation",
-            "Luminosity",
-            "Isolation"
-          ]
-        },
-        {
-          "title": "Figuras, recortes y máscaras",
-          "topics": [
-            "Recorte rectangular/interior",
-            "Recorte circular",
-            "Recorte elíptico",
-            "Recorte poligonal",
-            "Recorte con SVG",
-            "Animaciones con recortes",
-            "Máscaras de recortes",
-            "Composición de máscaras",
-            "Banner parallax con máscaras"
-          ]
-        },
-        {
-          "title": "Scroll",
-          "topics": [
-            "Desbordamiento de contenido",
-            "Smooth scroll con CSS",
-            "Controlando posición final del scroll",
-            "Desplazamiento dentro de contenedores",
-            "Scroll fullpages",
-            "Personalización del scroll (Parte 1)",
-            "Personalización del scroll (Parte 2)",
-            "Ejercicio tema dark y white para scroll"
-          ]
-        },
-        {
-          "title": "Layout",
-          "topics": [
-            "Holy grail layout responsive",
-            "Manejo de columnas (Parte 1)",
-            "Manejo de columnas (Parte 2)",
-            "Creando estructura de landing pages (Parte 1)",
-            "Creando estructura de landing pages (Parte 2)",
-            "¿Cuál es el siguiente paso?"
-          ]
-        },
-        {
-          "title": "Conceptos de RWD",
-          "topics": [
-            "Concepto",
-            "Viewport",
-            "Media Queries",
-            "Metodologías",
-            "Unidades relativas: porcentaje",
-            "Unidades relativas: em y rem",
-            "Unidades de viewport",
-            "Unidades de viewport II",
-            "Responsive web design flexbox",
-            "Responsive web design css grid",
-            "Breakpoints"
-          ]
-        },
-        {
-          "title": "Imágenes y videos responsive",
-          "topics": [
-            "Video responsive con CSS",
-            "Video responsive con CSS grid",
-            "Imágenes responsive con CSS",
-            "Imágenes responsive con picture",
-            "Imágenes responsive con srcset"
-          ]
-        },
-        {
-          "title": "RWD en JavaScript",
-          "topics": [
-            "CSSOM",
-            "Propiedad style",
-            "Propiedad style II",
-            "Trabajando con variables CSS",
-            "Media queries con JavaScript"
+            "Imágenes fluidas con max-width",
+            "picture y srcset",
+            "Video responsive básico"
           ]
         }
       ]
     },
     {
       "slug": "javascript-introductorio",
-      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para adentrarse en el mundo de la tecnología web a través de los contenidos de este curso.",
-      "requirements": "Para este curso es importante que el estudiante tenga bases sólidas en programación, ya que este curso no está orientado a enseñar a programar desde cero.",
-      "audience": "Dirigido a quien desee adentrarse en el mundo de la tecnología web: pueden venir del área de diseño, de desarrollo o no saber absolutamente nada, ya que el curso es desde cero.",
+      "objective": "Aprender los fundamentos de JavaScript — sintaxis, lógica y funciones — y dar los primeros pasos para conectarlo con una página web en el navegador.",
+      "requirements": "No se requiere experiencia previa en programación. Conocimientos básicos de computación e internet.",
+      "audience": "Principiantes que quieren aprender a programar con JavaScript desde cero y ver cómo se usa en una página web.",
       "learnings": [
-        "Las bases y particularidades de JS.",
-        "Escribir código óptimo y reutilizable.",
-        "Manipular datos y colecciones de datos.",
-        "Aplicar lógica de programación en JS."
+        "Escribir código JavaScript con sintaxis, operadores y funciones.",
+        "Aplicar lógica con condicionales, ciclos y colecciones de datos.",
+        "Vincular JavaScript a HTML y hacer interacciones básicas en el navegador."
       ],
       "modules": [
         {
           "title": "Introducción",
           "topics": [
-            "Bienvenidos al curso",
-            "Origen de JavaScript",
-            "ECMA",
-            "Motor V8",
-            "Requerimientos",
+            "JavaScript en la web",
             "Escribamos nuestra primera línea de código"
           ]
         },
@@ -477,18 +271,28 @@
             "Valores y atributos de los objetos",
             "Math y date"
           ]
+        },
+        {
+          "title": "JavaScript en el navegador",
+          "topics": [
+            "Vincular JavaScript con HTML",
+            "console.log y DevTools",
+            "Seleccionar elementos con querySelector",
+            "Modificar contenido de un elemento",
+            "Responder a un click con addEventListener"
+          ]
         }
       ]
     },
     {
       "slug": "ai-aplicada-web",
-      "objective": "Presentar a estudiantes principiantes los conceptos esenciales de inteligencia artificial aplicada al desarrollo web, con ejemplos claros, práctica guiada y uso de herramientas actuales como Cursor.",
-      "requirements": "Se recomienda haber iniciado HTML y CSS. No se requiere experiencia previa con IA. Es importante contar con conocimientos básicos de computación y manejo de internet.",
-      "audience": "Principiantes en desarrollo web que quieren entender qué es la IA, cómo pueden usarla en sus proyectos y aprender a hacerlo de forma responsable.",
+      "objective": "Presentar los conceptos esenciales de inteligencia artificial aplicada al desarrollo web, con ejemplos paso a paso pensados para quien empieza desde cero — incluso sin haber visto otros cursos de la ruta.",
+      "requirements": "No se requiere experiencia previa con IA ni con desarrollo web. Conocimientos básicos de computación e internet.",
+      "audience": "Principiantes curiosos sobre IA que quieren entender qué es, usarla de forma responsable y practicar con ejercicios guiados — con o sin experiencia previa en desarrollo web.",
       "learnings": [
         "Comprender qué es la IA, qué son los LLM y qué hace un agente.",
-        "Usar IA para apoyar la creación y mejora de sitios web.",
-        "Aplicar ejemplos y prácticas reales en HTML, CSS y JavaScript.",
+        "Usar IA para apoyar ideas, textos y código con práctica guiada paso a paso.",
+        "Aplicar ejemplos sencillos de desarrollo web con material de apoyo incluido.",
         "Conocer Cursor como herramienta para aprender y desarrollar más rápido."
       ],
       "modules": [
@@ -525,7 +329,7 @@
             "Generar ideas para un sitio o landing",
             "Mejorar textos, títulos y estructura HTML",
             "Depurar CSS y JavaScript con ayuda de IA",
-            "Crear secciones y componentes con asistencia"
+            "Crear secciones con asistencia — ejemplos guiados para principiantes"
           ]
         },
         {
@@ -550,32 +354,23 @@
     },
     {
       "slug": "git-introductorio",
-      "objective": "Introducir a estudiantes principiantes en Git y GitHub con un enfoque práctico para guardar, compartir y publicar sus proyectos web en línea.",
-      "requirements": "Se recomienda haber visto HTML y CSS. Necesitas una cuenta en GitHub y conocimientos básicos de computación e internet.",
-      "audience": "Principiantes en desarrollo web que quieren aprender a versionar su código, colaborar con repositorios remotos y publicar un sitio con GitHub Pages.",
+      "objective": "Introducir a estudiantes principiantes en Git y GitHub para crear repositorios, registrar cambios con commits y publicar un sitio web con GitHub Pages.",
+      "requirements": "No se requiere experiencia previa con Git. Necesitas una cuenta en GitHub y conocimientos básicos de computación e internet.",
+      "audience": "Principiantes en desarrollo web que quieren guardar su código en un repositorio, versionar cambios básicos y publicar su primer sitio en línea.",
       "learnings": [
-        "Crear y configurar un repositorio Git.",
+        "Crear y configurar un repositorio en GitHub.",
         "Registrar cambios con commits.",
-        "Sincronizar tu código con pull y push.",
         "Publicar un sitio web en GitHub Pages."
       ],
       "modules": [
         {
-          "title": "Introducción a Git",
-          "topics": [
-            "¿Qué es Git y para qué sirve?",
-            "Repositorio local vs remoto",
-            "Instalación y configuración inicial",
-            "Conceptos básicos: working directory, staging y commit"
-          ]
-        },
-        {
           "title": "Crear un repositorio",
           "topics": [
+            "Terminal y línea de comandos básica",
+            "¿Qué es Git y GitHub?",
             "Crear un repositorio en GitHub",
-            "Clonar un repositorio existente",
             "Inicializar Git en un proyecto local (git init)",
-            "Primer commit de tu proyecto"
+            "Conectar proyecto local con GitHub"
           ]
         },
         {
@@ -584,77 +379,16 @@
             "¿Qué es un commit?",
             "git status y git add",
             "git commit con mensajes claros",
-            "Ver el historial con git log"
+            "Subir cambios con git push"
           ]
         },
         {
-          "title": "Pull y push",
-          "topics": [
-            "¿Qué es push y qué es pull?",
-            "Conectar repositorio local con GitHub",
-            "git push para subir cambios",
-            "git pull para traer cambios del remoto"
-          ]
-        },
-        {
-          "title": "Publicación en GitHub Pages",
+          "title": "GitHub Pages",
           "topics": [
             "¿Qué es GitHub Pages?",
             "Preparar un proyecto web para publicar",
             "Activar GitHub Pages desde el repositorio",
             "Actualizar tu sitio con nuevos commits"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "html-intermedio",
-      "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para avanzar en temas más profundos de HTML5.",
-      "requirements": "Debes tener conocimientos sólidos adquiridos en el módulo Front End Introductorio: HTML5 Introductorio, CSS Introductorio y JavaScript Introductorio.",
-      "audience": "Dirigido a quien desee profundizar en el mundo de la tecnología web, ya sea desde el área de diseño o desde el desarrollo de software.",
-      "learnings": [
-        "Etiquetado con SVG.",
-        "Alternativas de creación de contenido (Markdown).",
-        "Elementos de multimedia."
-      ],
-      "modules": [
-        {
-          "title": "Multimedia",
-          "topics": [
-            "Audio",
-            "Video",
-            "Usando API de la cámara"
-          ]
-        },
-        {
-          "title": "SVG",
-          "topics": [
-            "Formas básicas",
-            "DOM SVG",
-            "Transformaciones",
-            "Paths",
-            "Degradados",
-            "Textos",
-            "Máscaras",
-            "Recortes",
-            "Iconos",
-            "SVG responsive",
-            "Animaciones SVG"
-          ]
-        },
-        {
-          "title": "Markdown",
-          "topics": [
-            "Encabezados, párrafos y listas",
-            "Imágenes y enlaces",
-            "Código",
-            "Texto",
-            "Tablas",
-            "Editores online",
-            "Herramientas para escritores",
-            "Herramientas para programadores",
-            "Aplicaciones de notas",
-            "Herramientas con soporte Markdown"
           ]
         }
       ]
@@ -666,6 +400,7 @@
       "audience": "Dirigido a quien desee actualizar sus conocimientos en tecnologías actuales de CSS, como Flexbox y CSS Grid.",
       "learnings": [
         "Layouts modernos con Flexbox y CSS Grid.",
+        "Arquitectura CSS con la metodología BEM.",
         "Transiciones, animaciones y transformaciones.",
         "Maquetación responsive y resolución de problemas reales con CSS."
       ],
@@ -781,47 +516,78 @@
           ]
         },
         {
-          "title": "Animaciones CSS y SVG",
+          "title": "Arquitectura BEM",
           "topics": [
-            "Insertar SVG en mi web",
-            "Software para la creación de SVG",
-            "Estructura de un SVG",
-            "Texto y línea",
-            "Ejercicio de línea y texto",
-            "Animación con el logo de Angular"
+            "¿Qué es BEM y para qué sirve?",
+            "Block, Element y Modifier",
+            "Convención de nombres en BEM",
+            "BEM en HTML y CSS",
+            "Componentes reales con BEM (tarjeta, menú, botón)",
+            "Buenas prácticas y errores comunes"
           ]
         }
       ]
     },
     {
-      "slug": "seo-intermedio",
-      "objective": "Capacitar al estudiante en temas de posicionamiento web SEO, una de las profesiones con mayor demanda laboral, con una introducción a aspectos relacionados con el marketing digital.",
-      "requirements": "Es obligatorio tener aprobados los cursos de Desarrollo Web Introductorio: HTML Introductorio, CSS Introductorio y JavaScript Introductorio.",
-      "audience": "Estudiantes que quieran profundizar sus conocimientos, cuenten con las bases del módulo introductorio y deseen adentrarse en marketing digital y visibilidad web.",
+      "slug": "bases-datos-intermedio",
+      "objective": "Profundizar en el diseño y consulta de bases de datos relacionales, aplicando modelado, JOINs, agregaciones e integridad de datos en escenarios web intermedios.",
+      "requirements": "Es recomendable haber completado Bases de Datos Introductorio y los cursos del módulo intermedio (CSS y JavaScript).",
+      "audience": "Estudiantes que ya conocen SQL básico y quieren diseñar estructuras más sólidas y consultas más complejas para aplicaciones web.",
       "learnings": [
-        "No depender de plataformas o checklist.",
-        "Auditar un sitio web completamente.",
-        "Posicionar tu sitio en motores de búsqueda."
+        "Modelar bases de datos con normalización básica.",
+        "Consultar datos con JOINs y relaciones entre tablas.",
+        "Usar agregaciones, filtros avanzados y subconsultas.",
+        "Aplicar integridad, índices y buenas prácticas en proyectos web."
       ],
       "modules": [
         {
-          "title": "SEO introductorio",
+          "title": "Modelado intermedio",
           "topics": [
-            "Definición de SEO",
-            "Conceptos básicos",
-            "Arquitectura de la información",
-            "Arquitectura web: aspectos tácticos",
-            "Anidaciones y detalles"
+            "Repaso del modelo relacional",
+            "Normalización (1FN, 2FN y 3FN intro)",
+            "Diseño de esquemas para apps web",
+            "Relaciones uno a uno y muchos a muchos",
+            "Tablas pivote y claves compuestas"
           ]
         },
         {
-          "title": "SEO avanzado",
+          "title": "Consultas con JOINs",
           "topics": [
-            "Optimización SEO On site",
-            "SEO Off page",
-            "SEO Mobile & ASO",
-            "Internacionalización y multilenguaje",
-            "JavaScript y el SEO"
+            "INNER JOIN",
+            "LEFT JOIN y RIGHT JOIN",
+            "Combinar múltiples tablas",
+            "Alias de tablas y columnas",
+            "Errores comunes con JOINs"
+          ]
+        },
+        {
+          "title": "Agregaciones y subconsultas",
+          "topics": [
+            "COUNT, SUM, AVG, MIN y MAX",
+            "GROUP BY y HAVING",
+            "ORDER BY con agregaciones",
+            "Subconsultas en WHERE y FROM",
+            "Consultas para reportes básicos"
+          ]
+        },
+        {
+          "title": "Integridad y optimización",
+          "topics": [
+            "Constraints: UNIQUE, NOT NULL y CHECK",
+            "Claves foráneas con ON DELETE y ON UPDATE",
+            "Índices: cuándo y por qué usarlos",
+            "Transacciones y ACID (intro)",
+            "Buenas prácticas de rendimiento"
+          ]
+        },
+        {
+          "title": "Bases de datos en aplicaciones web",
+          "topics": [
+            "Patrones de acceso a datos en frontend/backend",
+            "APIs REST y datos relacionales (concepto)",
+            "Evitar consultas N+1 (intro)",
+            "Migraciones y versionado de esquema (intro)",
+            "Preparación para niveles avanzado y experto"
           ]
         }
       ]
@@ -957,7 +723,7 @@
     {
       "slug": "html5-avanzado",
       "objective": "Dar las herramientas necesarias, tanto teóricas como prácticas, para avanzar en APIs y capacidades avanzadas de HTML5 en proyectos web modernos.",
-      "requirements": "Debes tener conocimientos sólidos de HTML Intermedio, CSS Intermedio y JavaScript Intermedio.",
+      "requirements": "Debes tener conocimientos sólidos de HTML5 Introductorio, CSS Intermedio y JavaScript Intermedio.",
       "audience": "Dirigido a quien desee profundizar en el mundo de la tecnología web, desde diseño o desarrollo de software.",
       "learnings": [
         "Las diferentes APIs de HTML5.",
@@ -1248,6 +1014,70 @@
             "GitHub Desktop",
             "Visualizar historial y ramas",
             "Resolver conflictos con interfaz gráfica"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bases-datos-introductorio",
+      "objective": "Introducir a estudiantes principiantes en los conceptos esenciales de bases de datos relacionales y SQL, para comprender cómo se almacenan y consultan los datos en aplicaciones web.",
+      "requirements": "No se requiere experiencia previa con bases de datos. Conocimientos básicos de computación e internet.",
+      "audience": "Principiantes en desarrollo web que quieren entender qué es una base de datos, cómo se organiza la información y cómo realizar consultas básicas.",
+      "learnings": [
+        "Comprender qué es una base de datos y para qué sirve en la web.",
+        "Identificar tablas, registros, campos y relaciones básicas.",
+        "Escribir consultas SQL introductorias (SELECT, INSERT, UPDATE, DELETE).",
+        "Conocer el rol de las bases de datos en un proyecto web."
+      ],
+      "modules": [
+        {
+          "title": "Introducción a las bases de datos",
+          "topics": [
+            "¿Qué es una base de datos?",
+            "Datos vs información",
+            "Bases de datos en aplicaciones web",
+            "Tipos de bases de datos (intro)",
+            "Relacional vs NoSQL (visión general)"
+          ]
+        },
+        {
+          "title": "Modelo relacional básico",
+          "topics": [
+            "Tablas, filas y columnas",
+            "Clave primaria (Primary Key)",
+            "Clave foránea (Foreign Key)",
+            "Relaciones uno a muchos (intro)",
+            "Diagrama entidad-relación simplificado"
+          ]
+        },
+        {
+          "title": "SQL: consultar datos",
+          "topics": [
+            "¿Qué es SQL?",
+            "SELECT y FROM",
+            "WHERE y filtros básicos",
+            "ORDER BY",
+            "LIMIT y paginación básica"
+          ]
+        },
+        {
+          "title": "SQL: modificar datos",
+          "topics": [
+            "INSERT INTO",
+            "UPDATE",
+            "DELETE",
+            "Buenas prácticas al modificar datos",
+            "Evitar errores comunes de principiante"
+          ]
+        },
+        {
+          "title": "Bases de datos en la práctica",
+          "topics": [
+            "SQLite, MySQL y PostgreSQL (intro)",
+            "Herramientas visuales para explorar datos",
+            "Conectar una base de datos a una app web (concepto)",
+            "Datos de ejemplo para practicar",
+            "Preparación para niveles intermedios y avanzados"
           ]
         }
       ]

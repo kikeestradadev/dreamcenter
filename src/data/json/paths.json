@@ -4,7 +4,7 @@
       "id": "path-1",
       "slug": "desarrollo-web-introductorio",
       "title": "Desarrollo Web Introductorio",
-      "description": "HTML5, CSS, JavaScript, Git, IA aplicada a la web y proyecto integrador. Tu punto de partida en desarrollo web.",
+      "description": "Catálogo introductorio: HTML5, CSS, JavaScript, Git, IA, bases de datos y proyecto integrador. Elige los cursos que necesites.",
       "level": "Introductorio",
       "image": "images/cursos/dev_wen_intro.png",
       "bannerImage": "images/cursos/dev_wen_intro.png",
@@ -15,6 +15,7 @@
         "javascript-introductorio",
         "ai-aplicada-web",
         "git-introductorio",
+        "bases-datos-introductorio",
         "proyecto-final-introductorio"
       ]
     },
@@ -22,16 +23,15 @@
       "id": "path-2",
       "slug": "desarrollo-web-intermedio",
       "title": "Desarrollo Web Intermedio",
-      "description": "HTML, CSS, SEO y JavaScript a nivel intermedio. Consolida bases y prepárate para proyectos reales.",
+      "description": "CSS, JavaScript y bases de datos a nivel intermedio. Consolida bases y prepárate para proyectos reales.",
       "level": "Intermedio",
       "image": "images/cursos/dev_web_inter.png",
       "bannerImage": "images/cursos/dev_web_inter.png",
       "featured": true,
       "courseSlugs": [
-        "html-intermedio",
         "css-intermedio",
-        "seo-intermedio",
         "javascript-intermedio",
+        "bases-datos-intermedio",
         "proyecto-final-intermedio"
       ]
     },
@@ -39,14 +39,13 @@
       "id": "path-3",
       "slug": "desarrollo-web-avanzado",
       "title": "Desarrollo Web Avanzado",
-      "description": "Node.js, HTML5 avanzado, Sass, Tailwind, JavaScript avanzado y Git. Herramientas para el desarrollo web profesional.",
+      "description": "Node.js, Sass, Tailwind, JavaScript avanzado y Git. Herramientas para el desarrollo web profesional.",
       "level": "Avanzado",
       "image": "images/cursos/dev_web_avanzado.png",
       "bannerImage": "images/cursos/dev_web_avanzado.png",
       "featured": true,
       "courseSlugs": [
         "nodejs-automatizacion",
-        "html5-avanzado",
         "sass-tailwind",
         "javascript-avanzado",
         "git-avanzado",
@@ -57,14 +56,13 @@
       "id": "path-4",
       "slug": "desarrollo-web-experto",
       "title": "Desarrollo Web Experto",
-      "description": "Domina arquitecturas modernas, frontend avanzado y plataformas profesionales. Aprende React JS, Bases de Datos, Supabase y Strapi para construir soluciones modernas a nivel experto.",
+      "description": "Domina arquitecturas modernas, frontend avanzado y plataformas profesionales. Aprende React JS, Supabase y Strapi para construir soluciones modernas a nivel experto.",
       "level": "Experto",
       "image": "images/cursos/web_dev_experto.png",
       "bannerImage": "images/cursos/web_dev_experto.png",
       "featured": true,
       "courseSlugs": [
         "react-experto",
-        "bases-datos-experto",
         "supabase-experto",
         "strapi-experto"
       ]

@@ -31,7 +31,7 @@ export const mainNav: NavGroup[] = [
       { label: 'Desarrollo Web Introductorio', href: '/rutas/desarrollo-web-introductorio', description: 'Tu primer paso en código' },
       { label: 'Desarrollo Web Intermedio', href: '/rutas/desarrollo-web-intermedio', description: 'JavaScript y frontend' },
       { label: 'Desarrollo Web Avanzado', href: '/rutas/desarrollo-web-avanzado', description: 'React, TypeScript y APIs' },
-      { label: 'Desarrollo Web Experto', href: '/rutas/desarrollo-web-experto', description: 'React, Supabase, Strapi y bases de datos' },
+      { label: 'Desarrollo Web Experto', href: '/rutas/desarrollo-web-experto', description: 'React, Supabase y Strapi' },
     ],
   },
   {

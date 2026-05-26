@@ -42,17 +42,17 @@ export const isProjectWorkshopSlug = (slug: string): boolean =>
 
 export const projectWorkshopDetail = {
   note:
-    'Nota importante: este no es un curso adicional del módulo. Es un tiempo reservado para la realización de un proyecto integrador, donde aplicarás todos los conocimientos aprendidos bajo la supervisión del profesor.',
+    'Nota importante: este no es un curso adicional del módulo. Es un espacio reservado para desarrollar un proyecto integrador, donde aplicarás los conocimientos adquiridos en los cursos de la ruta bajo la supervisión del profesor.',
   objective:
-    'Dar la oportunidad a los estudiantes de participar en un proyecto que emula un entorno laboral real, para integrar todos los conocimientos adquiridos en el módulo.',
+    'Dar la oportunidad de participar en un proyecto que emula un entorno laboral real, aplicando los conocimientos adquiridos en los cursos del módulo.',
   requirements:
-    'Haber terminado todos los cursos correspondientes al módulo, ya que esos conocimientos son los que se integrarán en el proyecto.',
+    'Contar con conocimientos de los cursos que componen la ruta, según los temas que vayas a utilizar en tu proyecto. No es necesario haber completado todos los cursos antes de participar.',
   audience:
-    'Dirigido a quien desee consolidar su aprendizaje en el mundo de la tecnología web y haya completado los cursos correspondientes al módulo.',
+    'Dirigido a quien desee consolidar su aprendizaje aplicando en la práctica los contenidos vistos en los cursos del módulo.',
   learnings: [
-    'Integrar todos los conocimientos adquiridos.',
-    'Adquirir experiencia al trabajar en un proyecto.',
-    'Simular lo que ocurre en un entorno laboral real.',
+    'Aplicar los conocimientos adquiridos en los cursos del módulo.',
+    'Adquirir experiencia al trabajar en un proyecto real.',
+    'Simular lo que ocurre en un entorno laboral.',
   ],
   modules: [
     {

@@ -61,7 +61,6 @@ const DynamicSectionPage = () => {
         </section>
         <CourseRow
           title="Cursos de esta ruta"
-          subtitle="Contenido local — se conectará a Strapi"
           courses={pathCourses}
         />
       </Layout>
